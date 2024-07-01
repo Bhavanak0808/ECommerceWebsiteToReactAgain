@@ -22,6 +22,9 @@ const Footer = () => {
                                         <Link className="nav-Link" to="product">Products</Link>
                                       </li>
                                     <li className="nav-item">
+                                      <Link className="nav-Link" to="gallery">Gallery</Link>
+                                    </li>
+                                    <li className="nav-item">
                                       <Link className="nav-Link" to="contact">Contact Us</Link>
                                     </li>
                                     <li className="nav-item">
