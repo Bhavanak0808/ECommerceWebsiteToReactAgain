@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Footer = () => {
     return ( <>
      {/* <!-- Footer --> */}
@@ -9,19 +10,19 @@ const Footer = () => {
                             <p>Find the perfect product for every occasion at HappySprouts.</p>
                         </div>
                         <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-                            <h5 className="text-uppercase">Links</h5>
+                            <h5 className="text-uppercase">links</h5>
                             <ul className="list-unstyled mb-0">
                                     <li className="nav-item">
-                                      <Link className="nav-Link" to="index.html">Home</Link>
+                                      <Link className="nav-Link" to="/">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-Link" to="about.html">About Us</Link>
+                                        <Link className="nav-Link" to="about">About Us</Link>
                                       </li>
                                       <li className="nav-item">
-                                        <Link className="nav-Link" to="products.html">Products</Link>
+                                        <Link className="nav-Link" to="product">Products</Link>
                                       </li>
                                     <li className="nav-item">
-                                      <Link className="nav-Link" to="contact.html">Contact Us</Link>
+                                      <Link className="nav-Link" to="contact">Contact Us</Link>
                                     </li>
                                     <li className="nav-item">
                                       <Link className="nav-Link" to="#loginModal" data-bs-toggle="modal" data-bs-target="#loginModal">Login</Link>
