@@ -12,19 +12,19 @@ const Footer = () => {
                             <h5 className="text-uppercase">Links</h5>
                             <ul className="list-unstyled mb-0">
                                     <li className="nav-item">
-                                      <link className="nav-link" to="index.html">Home</link>
+                                      <Link className="nav-Link" to="index.html">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <link className="nav-link" to="about.html">About Us</link>
+                                        <Link className="nav-Link" to="about.html">About Us</Link>
                                       </li>
                                       <li className="nav-item">
-                                        <link className="nav-link" to="products.html">Products</link>
+                                        <Link className="nav-Link" to="products.html">Products</Link>
                                       </li>
                                     <li className="nav-item">
-                                      <link className="nav-link" to="contact.html">Contact Us</link>
+                                      <Link className="nav-Link" to="contact.html">Contact Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                      <link className="nav-link" to="#loginModal" data-bs-toggle="modal" data-bs-target="#loginModal">Login</link>
+                                      <Link className="nav-Link" to="#loginModal" data-bs-toggle="modal" data-bs-target="#loginModal">Login</Link>
                                     </li>
                             </ul>
                         </div>
